@@ -3,6 +3,7 @@ on:
   push:
     branches:
       - main
+      - feature/TEST-1234_fix_the_bug
   pull_request:
     types: [opened, synchronize, reopened]
 jobs:
